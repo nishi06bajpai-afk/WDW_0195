@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hotel Room Booking Form</title>
+
+    <style>
+        .form-box {
+            width: 285px;
+            border: 2px solid black;
+            margin: 30px auto;
+            padding: 15px;
+            text-align: center;
+        }
+
+        h2 {
+            margin-top: 0;
+            font-family: serif;
+        }
+
+        label {
+            display: inline-block;
+            width: 120px;
+            text-align: right;
+            margin: 5px;
+        }
+
+        input, select {
+            width: 95px;
+        }
+
+        textarea {
+            width: 185px;
+            height: 35px;
+        }
+
+        button {
+            font-size: 10px;
+            margin: 5px 2px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="form-box">
+
+        <h2>Hotel Room Booking Form</h2>
+
+        <form>
+
+            <label>Full Name:</label>
+            <input type="text">
+            <br>
+
+            <label>Email:</label>
+            <input type="email">
+            <br>
+
+            <label>Phone:</label>
+            <input type="tel">
+            <br>
+
+            <label>Check-in Date:</label>
+            <input type="date">
+            <br>
+
+            <label>Check-out Date:</label>
+            <input type="date">
+            <br>
+
+            <label>Room Type:</label>
+            <select>
+                <option>Single Room</option>
+                <option>Double Room</option>
+                <option>Deluxe Room</option>
+            </select>
+            <br>
+
+            <label>Number of Guests:</label>
+            <input type="number">
+            <br>
+
+            <label>Special Requests:</label>
+            <br>
+
+            <textarea></textarea>
+            <br>
+
+            <button type="submit">Book Now</button>
+            <button type="reset">Reset Form</button>
+
+        </form>
+
+    </div>
+
+</body>
+</html>
