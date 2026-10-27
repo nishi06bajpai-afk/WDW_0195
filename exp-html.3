@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Timetable</title>
+
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 90%;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        th, td {
+            border: 2px solid black;
+            padding: 12px;
+        }
+
+        th {
+            font-weight: bold;
+        }
+
+        .title {
+            border: none;
+            font-size: 18px;
+            color: darkblue;
+        }
+    </style>
+</head>
+
+<body>
+
+<table>
+
+    <tr>
+        <th class="title" colspan="8">
+            College Timetable - CSE Department
+        </th>
+    </tr>
+
+    <tr>
+        <th>Day / Time</th>
+        <th>9:00 - 10:00</th>
+        <th>10:00 - 11:00</th>
+        <th>11:00 - 12:00</th>
+        <th>12:00 - 1:00</th>
+        <th>1:00 - 2:00</th>
+        <th>2:00 - 3:00</th>
+        <th>3:00 - 4:00</th>
+    </tr>
+
+    <!-- Monday -->
+    <tr>
+        <th>Monday</th>
+        <td rowspan="2">Mathematics</td>
+        <td>English</td>
+        <td rowspan="5">Physics</td>
+        <td>Break</td>
+        <td colspan="2">Computer Lab</td>
+        <td>Sports</td>
+    </tr>
+
+    <!-- Tuesday -->
+    <tr>
+        <th>Tuesday</th>
+        <td>C Programming</td>
+        <td>Break</td>
+        <td colspan="2">Electronics Lab</td>
+        <td>Library</td>
+    </tr>
+
+    <!-- Wednesday -->
+    <tr>
+        <th>Wednesday</th>
+        <td>Mathematics</td>
+        <td>English</td>
+        <td>Break</td>
+        <td colspan="2">Computer Networks</td>
+        <td>
+            <b>Lab Details</b><br>
+            <table>
+                <tr>
+                    <th>Batch A</th>
+                    <td>DBMS Lab</td>
+                </tr>
+                <tr>
+                    <th>Batch B</th>
+                    <td>OS Lab</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+
+    <!-- Thursday -->
+    <tr>
+        <th>Thursday</th>
+        <td colspan="2">Workshop</td>
+        <td>Break</td>
+        <td>Mathematics</td>
+        <td>English</td>
+        <td>Seminar</td>
+    </tr>
+
+    <!-- Friday -->
+    <tr>
+        <th>Friday</th>
+        <td>Computer Networks</td>
+        <td>English</td>
+        <td>Break</td>
+        <td colspan="3">Project Work</td>
+    </tr>
+
+</table>
+
+</body>
+</html>
